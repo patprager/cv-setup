@@ -11,31 +11,49 @@ html {
 body {
   margin: 0;
 }
+.line-h2 {
+  border-top: 1px solid #35403a;
+}
 
 h1 {
   font-weight: lighter;
   text-transform: uppercase;
   font-size: 25px;
+  letter-spacing: 0, 30pt;
 }
-
+h2 {
+  color: #4c594f;
+  font-weight: 700;
+}
 a {
   color: #f2f2e9;
   text-decoration: none;
   font-size: 18px;
-  letter-spacing: 0, 30pt;
 }
+
+a:link {
+  color: #f2f2e9;
+}
+
+a:hover {
+  color: #232625;
+}
+
+/* a:active {
+  color: #4c594f;
+} */
 
 h3 {
   color: #4c594f;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0, 9pt;
 }
 
 .header {
   background-color: #4c594f;
-  padding: 48px 16px;
+  padding: 100px 16px;
   text-align: center;
 }
 
@@ -47,7 +65,7 @@ h3 {
 
 .nav-list {
   display: inline-block;
-  margin-right: 18px;
+  margin-right: 20px;
 }
 
 .character-hand-letter {
