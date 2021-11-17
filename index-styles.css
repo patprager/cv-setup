@@ -5,14 +5,11 @@
 html {
   background-color: #fff5f5;
   color: #232625;
-  font-family: "Lato", serifenlos;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 body {
   margin: 0;
-}
-.line-h2 {
-  border-top: 1px solid #35403a;
 }
 
 h1 {
@@ -21,10 +18,12 @@ h1 {
   font-size: 25px;
   letter-spacing: 0, 30pt;
 }
+
 h2 {
   color: #4c594f;
   font-weight: 700;
 }
+
 a {
   color: #f2f2e9;
   text-decoration: none;
@@ -38,10 +37,6 @@ a:link {
 a:hover {
   color: #232625;
 }
-
-/* a:active {
-  color: #4c594f;
-} */
 
 *::selection {
   background-color: lemonchiffon;
@@ -69,7 +64,12 @@ h3 {
 
 .nav-list {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 45px;
+}
+
+.line-h2 {
+  border-top: 1px solid #a4a69c;
+  padding-top: 35px;
 }
 
 .character-hand-letter {
@@ -84,11 +84,12 @@ h3 {
 }
 
 .prof-subheading {
-  text-transform: uppercase;
-  font-weight: lighter;
-  padding-bottom: 30px;
+  _text-transform: uppercase;
+  font-family: "Shadows Into Light", kursiv;
+  padding-bottom: 40px;
+  font-size: 20px;
 }
 
-.prof-subheading::after {
+.prof-subheading:after {
   content: 🦄;
 }
