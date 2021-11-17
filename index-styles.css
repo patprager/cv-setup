@@ -48,6 +48,7 @@ h3 {
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0, 9pt;
+  margin-top: 0px;
 }
 
 .header {
@@ -81,15 +82,15 @@ h3 {
   font-size: 12px;
   font-weight: bolder;
   color: #a4a69c;
+  margin-bottom: 7px;
 }
 
 .prof-subheading {
-  _text-transform: uppercase;
   font-family: "Shadows Into Light", kursiv;
   padding-bottom: 40px;
   font-size: 20px;
 }
 
-.prof-subheading:after {
-  content: 🦄;
+.prof-subheading::after {
+  content: "🦄";
 }
