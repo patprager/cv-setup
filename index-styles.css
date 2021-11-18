@@ -6,7 +6,8 @@ html {
   background-color: #fff5f5;
   color: #232625;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 20px;
 }
 body {
   margin: 0;
@@ -49,6 +50,7 @@ h3 {
   font-size: 15px;
   letter-spacing: 0, 9pt;
   margin-top: 0px;
+  display: inline-block;
 }
 
 .header {
@@ -83,6 +85,8 @@ h3 {
   font-weight: bolder;
   color: #a4a69c;
   margin-bottom: 7px;
+  display: inline-block;
+  margin-right: 30px;
 }
 
 .prof-subheading {
