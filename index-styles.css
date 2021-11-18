@@ -98,3 +98,24 @@ h3 {
 .prof-subheading::after {
   content: "🦄";
 }
+
+.hire-me {
+  background-color: #bfbfb8;
+  color: #4c594f;
+  font-family: "Shadows Into Light", kursiv;
+  font-size: 20px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  padding: 15px;
+  border-radius: 5.5px;
+}
+
+.hire-me::before {
+  content: "📌";
+}
+
+.heading-article {
+  position: relative;
+  left: -18px;
+}
