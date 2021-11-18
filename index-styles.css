@@ -6,8 +6,8 @@ html {
   background-color: #fff5f5;
   color: #232625;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.38rem;
 }
 body {
   margin: 0;
@@ -16,8 +16,8 @@ body {
 h1 {
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 25px;
-  letter-spacing: 0, 30pt;
+  font-size: 1.5625rem;
+  letter-spacing: 0, 1.875rem;
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
 a {
   color: #f2f2e9;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 a:link {
@@ -47,52 +47,53 @@ h3 {
   color: #4c594f;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 0, 9pt;
-  margin-top: 0px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.015625rem;
+  margin-top: 0rem;
   display: inline-block;
 }
 
 .header {
   background-color: #4c594f;
-  padding: 100px 16px;
+  padding: 6.25rem 1rem;
   text-align: center;
+  position: relative;
 }
 
 .main-menu {
-  max-width: 800px;
+  max-width: 70ch;
   margin: 0 auto;
-  padding: 16px;
+  padding: 1rem;
 }
 
 .nav-list {
   display: inline-block;
-  margin-right: 45px;
+  margin-right: 2.8125rem;
 }
 
 .line-h2 {
-  border-top: 1px solid #a4a69c;
-  padding-top: 35px;
+  border-top: 0.0625rem solid #a4a69c;
+  padding-top: 2.1875rem;
 }
 
 .character-hand-letter {
   font-family: "Shadows Into Light", kursiv;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .timetable-cv {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bolder;
   color: #a4a69c;
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 .prof-subheading {
   font-family: "Shadows Into Light", kursiv;
-  padding-bottom: 40px;
-  font-size: 20px;
+  padding-bottom: 2.5rem;
+  font-size: 0.25em;
 }
 
 .prof-subheading::after {
@@ -103,12 +104,12 @@ h3 {
   background-color: #bfbfb8;
   color: #4c594f;
   font-family: "Shadows Into Light", kursiv;
-  font-size: 20px;
+  font-size: 1.25rem;
   position: absolute;
-  right: 30px;
-  top: 30px;
-  padding: 15px;
-  border-radius: 5.5px;
+  right: 1.875rem;
+  top: 1.875rem;
+  padding: 0.9375rem;
+  border-radius: 0.34375rem;
 }
 
 .hire-me::before {
@@ -117,5 +118,13 @@ h3 {
 
 .heading-article {
   position: relative;
-  left: -18px;
+  left: -1.125rem;
+}
+
+.div-heading-group {
+  font-size: 3.5rem;
+}
+
+.h1-heading {
+  font-size: 2em;
 }
