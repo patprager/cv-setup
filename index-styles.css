@@ -40,11 +40,11 @@ a {
 }
 
 a:link {
-  color: #f2f2e9;
+  color: #a4a69c;
 }
 
 a:hover {
-  color: #232625;
+  color: snow;
 }
 
 h3 {
@@ -61,6 +61,7 @@ h3 {
   background-color: #4c594f;
   padding: 6.25rem 1rem;
   text-align: center;
+  background-image: linear-gradient(0deg, #232625, #4c594f);
   position: relative;
 }
 
@@ -103,7 +104,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
   }
 }
 
@@ -180,4 +180,20 @@ h3 {
   .hire-me {
     display: none;
   }
+}
+
+.footer-cv {
+  background-color: #4c594f;
+  margin-top: 5rem;
+  padding: 1.5rem;
+}
+
+.footer-text {
+  color: #a4a69c;
+  margin: 0px;
+  text-align: center;
+}
+
+.footer-email {
+  color: #232625;
 }
