@@ -3,14 +3,20 @@
 }
 
 html {
-  background-color: #fff5f5;
-  color: #232625;
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   line-height: 1.38rem;
 }
 body {
+  --background-color-body: #fff5f5;
+  --text-color: #232625;
+  --h2-color: #4c594f;
+  --date-timetable-color: #a4a69c;
+  --h3-color: #4c594f;
+
   margin: 0;
+  color: var(--text-color);
+  background-color: var(--background-color-body);
 }
 *::selection {
   background-color: lemonchiffon;
@@ -29,8 +35,8 @@ body {
 }
 
 h2 {
-  color: #4c594f;
   font-weight: 700;
+  color: var(--h2-color);
 }
 
 a {
@@ -48,7 +54,7 @@ a:hover {
 }
 
 h3 {
-  color: #4c594f;
+  color: var(--h3-color);
   text-transform: uppercase;
   font-weight: 500;
   font-size: 0.9375rem;
@@ -159,9 +165,9 @@ h3 {
 }
 
 .timetable-cv {
+  color: var(--date-timetable-color);
   font-size: 0.75rem;
   font-weight: bolder;
-  color: #a4a69c;
   margin-bottom: 0.4375rem;
   display: inline-block;
   margin-right: 1.875rem;
