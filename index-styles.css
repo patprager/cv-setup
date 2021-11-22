@@ -12,12 +12,20 @@ html {
 body {
   margin: 0;
 }
+*::selection {
+  background-color: lemonchiffon;
+}
 
-h1 {
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 1.5625rem;
-  letter-spacing: 0, 1.875rem;
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  html {
+    font-size: 18px;
+  }
 }
 
 h2 {
@@ -39,10 +47,6 @@ a:hover {
   color: #232625;
 }
 
-*::selection {
-  background-color: lemonchiffon;
-}
-
 h3 {
   color: #4c594f;
   text-transform: uppercase;
@@ -60,44 +64,47 @@ h3 {
   position: relative;
 }
 
-.main-menu {
-  max-width: 70ch;
-  margin: 0 auto;
-  padding: 1rem;
+.div-heading-group {
+  font-size: 3rem;
 }
 
-.nav-list {
-  display: inline-block;
-  margin-right: 2.8125rem;
-}
-
-.line-h2 {
-  border-top: 0.0625rem solid #a4a69c;
-  padding-top: 2.1875rem;
-}
-
-.character-hand-letter {
-  font-family: "Shadows Into Light", kursiv;
-  font-size: 1.25rem;
-}
-
-.timetable-cv {
-  font-size: 0.75rem;
-  font-weight: bolder;
-  color: #a4a69c;
-  margin-bottom: 0.4375rem;
-  display: inline-block;
-  margin-right: 1.875rem;
+.h1-heading {
+  font-size: 2.4em;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.5625rem;
+  letter-spacing: 0, 1.875rem;
 }
 
 .prof-subheading {
   font-family: "Shadows Into Light", kursiv;
   padding-bottom: 2.5rem;
-  font-size: 0.25em;
+  font-size: 0.5em;
 }
 
 .prof-subheading::after {
   content: "🦄";
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-list {
+  line-height: 150%;
+  display: inline-block;
+  margin-right: 2.8125rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+  }
 }
 
 .hire-me {
@@ -116,36 +123,61 @@ h3 {
   content: "📌";
 }
 
+.main-menu {
+  max-width: 70ch;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 .heading-article {
   position: relative;
   left: -1.125rem;
 }
 
-.div-heading-group {
-  font-size: 3rem;
+.character-hand-letter {
+  font-family: "Shadows Into Light", kursiv;
+  font-size: 1.25rem;
 }
 
-.h1-heading {
-  font-size: 2em;
+.line-h2 {
+  border-top: 0.0625rem solid #a4a69c;
+  padding-top: 2.1875rem;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
-  html {
-    font-size: 16px;
+  .experience-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 990px) {
-  html {
-    font-size: 18px;
+.timetable-cv {
+  font-size: 0.75rem;
+  font-weight: bolder;
+  color: #a4a69c;
+  margin-bottom: 0.4375rem;
+  display: inline-block;
+  margin-right: 1.875rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hire-me {
+    position: fixed;
   }
 }
 
 @media print {
-  nav {
+  .navigation {
     display: none;
   }
-  aside {
+  .hire-me {
     display: none;
   }
 }
